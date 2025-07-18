@@ -50,6 +50,7 @@ body {
 }
 .weather {
   width: 100%;
+  display: none;
 }
 .weatherImg {
   width: 170px;
