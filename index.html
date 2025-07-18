@@ -5,14 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather APP</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="card">
       <div class="search">
         <input type="text" placeholder="Enter city name" spellcheck="false" />
-        <button><img src="./images/search.png" alt="search" /></button>
+        <button>
+          <img src="./images/search.png" alt="search" class="btn" />
+        </button>
+      </div>
+      <div class="weather">
+        <img src="./images/rain.png" alt="weather-image" class="weatherImg" />
+        <h1 class="temp">20<sup>o</sup>C</h1>
+        <h2 class="city">Nairobi</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./images/humidity.png" alt="humImg" class="humidityImg" />
+            <div class="humDetails">
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/wind.png" alt="windImg" class="windImg" />
+            <div class="windDetails">
+              <p class="wind">50 Km/H</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>

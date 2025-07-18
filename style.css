@@ -48,3 +48,41 @@ body {
 .search button img {
   width: 16px;
 }
+.weather {
+  width: 100%;
+}
+.weatherImg {
+  width: 170px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.col img {
+  width: 50px;
+  margin: 0 20px;
+}
+.col .wind,
+.humidity {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
